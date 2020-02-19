@@ -4,7 +4,6 @@ public class Days {
 	public static void main(String[] args) {
 		
 		// Execute different block of code based to the value of a condition
-		// Adding comments (local to remote)
 		String dayOfWeek = "Thursday";
 		
 		switch (dayOfWeek) {
