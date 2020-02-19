@@ -17,14 +17,16 @@ public class Cities {
 		String[] countries;
 		
 		// Define the array
-		countries = new String[3];
+		countries = new String[4];
 				
 		countries[0] = "USA";
 		countries[1] = "Canada";
 		countries[2] = "UK";
+		countries[3] = "Japan";
 		System.out.println(countries[2]);
 		System.out.println(countries[1]);
 		System.out.println(countries[0]);
+		System.out.println(countries[3]);
 		
 		System.out.println("------------");
 		System.out.println("PRINTING WITH DO WHILE LOOP\n");
