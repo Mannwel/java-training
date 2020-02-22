@@ -93,10 +93,10 @@ class AreaCodeException  extends Exception {
 }
 
 class EmergencyException  extends Exception {
-String num;
+	String num;
 	
 	//Constructor
-EmergencyException(String num) {
+	EmergencyException(String num) {
 		this.num = num;
 	}
 	public String toString() {
